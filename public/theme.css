@@ -1,0 +1,114 @@
+:root {
+    scroll-behavior: smooth;
+    --primary: #7434dc;
+    --secondary: #09143b;
+    --secondery-black: #212529;
+}
+body {
+    /* background-color: rgb(241 241 241 / 15%) !important; */
+}
+.select2-container--default .select2-selection--single {
+    height: 38px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    line-height: 36px;
+    padding-left: 12px;
+    font-size: 1rem;
+}
+
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow {
+    height: 36px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+
+.select2-container .select2-selection--single .select2-selection__arrow b {
+    border-color: #495057 transparent transparent transparent;
+}
+
+/* Change primary color for selected item and hover */
+.select2-container--default
+    .select2-results__option--highlighted[aria-selected] {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Change primary color for the search input focus */
+.select2-container--default
+    .select2-search--dropdown
+    .select2-search__field:focus {
+    border-color: var(--primary);
+}
+
+.select2-container * {
+    z-index: 999999 !important;
+}
+
+.btn-primary {
+    color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    color: #ffffff !important;
+}
+.btn-khas-primary {
+    color: #ffffff !important;
+}
+.btn-khas-outline-primary {
+    color: #ffffff !important;
+}
+.btn-khas-primary {
+    color: #ffffff !important;
+}
+
+.btn-khas-primary:hover {
+    color: #ffffff !important;
+}
+.btn-outline-khas-primary:hover {
+    color: #ffff !important;
+}
+
+.btn-outline-primary:hover {
+    color: #ffff !important;
+}
+.btn-danger {
+    color: #ffffff !important;
+}
+
+.btn-danger:hover {
+    color: #ffffff !important;
+}
+.btn-khas-danger {
+    color: #ffffff !important;
+}
+.btn-outline-khas-danger {
+    color: #ffffff !important;
+}
+.btn-khas-danger {
+    color: #ffffff !important;
+}
+
+.btn-khas-danger:hover {
+    color: #ffffff !important;
+}
+.btn-outline-khas-danger:hover {
+    color: #ffff !important;
+}
+
+.btn-outline-danger:hover {
+    color: #ffff !important;
+}
+
+
+.product-action-btn{
+    width: 160px !important;
+}
